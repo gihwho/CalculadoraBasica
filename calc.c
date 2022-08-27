@@ -9,8 +9,6 @@ int main(){
 	printf("\nQual eh a opcao desejada?: ");
 	scanf("%d", &op);
 	
-	
-	
 	if(op > 0 && op < 5){
 	/*	for(int i = 0; i < 2; i++){
 		printf("\nDigite o numero %d: ", i+1);
