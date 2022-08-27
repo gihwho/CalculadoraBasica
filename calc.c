@@ -1,8 +1,9 @@
 #include <stdio.h>
 
 int main(){
-	int op, num1, num2, ad, sub, mult, div;
-	
+	int op, num1, num2;
+	float ad, sub, mult, div;
+
 	do{
 	printf("\nDigite 1 para adicao\nDigite 2 para subtracao\nDigite 3 para multiplicacao\nDigite 4 para divisao\nDigite 5 para sair\n");
 	printf("\nQual eh a opcao desejada?: ");
@@ -25,19 +26,19 @@ int main(){
 	switch(op){
 		case 1:
 			ad = num1 + num2;
-			printf("\nA soma eh: %d\n", ad);
+			printf("\nA soma eh: %0.2f\n", ad);
 			break;
 		case 2:
 			sub = num1 - num2;
-			printf("\nA subtracao eh: %d\n", sub);
+			printf("\nA subtracao eh: %0.2f\n", sub);
 			break;
 		case 3:
 			mult = num1 * num2;
-			printf("\nA multiplicacao eh: %d\n", mult);
+			printf("\nA multiplicacao eh: %0.2f\n", mult);
 			break;
 		case 4:
 			div = num1 / num2;
-			printf("\nA divisao eh: %d\n", div);
+			printf("\nA divisao eh: %0.2f\n", div);
 			break;
 		case 5:
 			printf("\nJa to fechando, calma...\n");
